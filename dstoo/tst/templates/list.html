@@ -1,0 +1,7 @@
+<h1> List Course</h1>
+{% for course in courses %}
+    <li>
+        <a href="{% url 'update' course.id %}">edit</a>
+        C id: {{course.id}},C NAme: {{course.name}}
+    </li>
+{% endfor %}

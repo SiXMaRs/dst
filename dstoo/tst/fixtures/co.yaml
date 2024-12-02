@@ -1,0 +1,12 @@
+- model : tst.course
+  pk: 1
+  fields:
+    id: 1
+    name: sdd
+    tname: adsad
+- model : tst.course
+  pk: 2
+  fields:
+    id: 2
+    name: sddsad
+    tname: adsad2
